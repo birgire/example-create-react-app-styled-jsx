@@ -12,7 +12,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        {`/* global styles */`}
+        {/* global styles */}
         <style jsx global>
           {`
             body {
@@ -22,7 +22,7 @@ class App extends Component {
             }
           `}
         </style>
-        {`/* local styles */`}
+        {/* local styles */}
         <style jsx>{`
           .App {
             text-align: center;
@@ -56,7 +56,7 @@ class App extends Component {
               transform: rotate(360deg);
             }
           }
-        `}</style>`
+        `}</style>
       </div>
     );
   }
